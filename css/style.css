@@ -39,7 +39,7 @@ body {
 }
 
 .header-content-link:hover {
-    color:#37afff;
+    color: #37afff;
 }
 
 .header-content-button {
@@ -48,7 +48,7 @@ body {
     font-family: 'Roboto';
     font-weight: 700;
     color: #FCFCFC;
-    background: #3298db; 
+    background: #3298db;
     box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.2);
     border-radius: 0.5em;
     border: none;
@@ -62,31 +62,72 @@ body {
 }
 
 /* CSS do conteúdo principal */
-.main-section {
-    padding: 4em 4em;
-}
-
-.main-section-content-1 {
-    margin: 0 auto;
+.main-celular {
     width: 80%;
+    margin: 0 auto;
+    padding: 6em 0;
 }
 
-.main-section-content-1-title {
-    display: inline;
+.section-celular {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content-celular {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
     width: 50%;
+}
+
+.title-celular {
+    width: 100%;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
     font-family: 'Bebas Neue';
-    font-size: 4em;
+    font-size: 5em;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
-    color:#FCFCFC;
+    color: #FCFCFC;
+    border-bottom: 0.1rem solid #FCFCFC;
 }
 
-.main-section-content-1-text {
-    width: 50%;
-    display: block;
+.text-celular {
+    width: 100%;
+    padding: 0 6rem 2rem 0;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: #FCFCFC;
 }
 
-.main-section-content-2-img-celular {
-    width: 40%;
+.title-celular-2 {
+    width: 100%;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 2em;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    color: #FCFCFC;
+}
+
+.celular-img-facebook {
+    width: 3em;
+    flex-shrink: 3;
+}
+
+.celular-img-instagram {
+    width: 3em;
+}
+
+.content-celular-2 {
+
+}
+
+.celular-img-celular {
+    width: 34em;
     transform: rotate(34.3deg);
 }
-
