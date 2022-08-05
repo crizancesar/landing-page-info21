@@ -1,0 +1,11 @@
+body {
+    background: linear-gradient(180deg, #007195 0%, #000000 86.46%);
+}
+
+.header-content {
+    display:flex;
+}
+
+.header-content-img {
+    height: 132px;
+}
