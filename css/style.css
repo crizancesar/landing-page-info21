@@ -5,6 +5,7 @@ body {
     font-size: 12px;
 }
 
+/* CSS do cabeçalho */
 .header-content {
     width: 80%;
     display: flex;
@@ -59,3 +60,33 @@ body {
     color: #FFFFFF;
 
 }
+
+/* CSS do conteúdo principal */
+.main-section {
+    padding: 4em 4em;
+}
+
+.main-section-content-1 {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.main-section-content-1-title {
+    display: inline;
+    width: 50%;
+    font-family: 'Bebas Neue';
+    font-size: 4em;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    color:#FCFCFC;
+}
+
+.main-section-content-1-text {
+    width: 50%;
+    display: block;
+}
+
+.main-section-content-2-img-celular {
+    width: 40%;
+    transform: rotate(34.3deg);
+}
+
