@@ -1,2 +1,3 @@
-# landing-page-info21
-This repository is the development of the IT company's website: INFO 21 Technical Assistance
+# Projeto INFO 21 Landing Page
+
+> This repository is the development of the IT company's website: INFO 21 Technical Assistance
