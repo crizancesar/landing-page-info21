@@ -10,8 +10,10 @@ body {
     width: 80%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    gap:1rem;
     padding: 2em 0;
     margin: 0 auto;
     border-bottom: 0.1em solid #FCFCFC;
@@ -28,6 +30,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 2em;
+    padding: 1rem;
 }
 
 .header-content-link {
@@ -36,6 +39,7 @@ body {
     font-family: 'Roboto';
     font-weight: 700;
     color: #FCFCFC;
+    text-align: center;
 }
 
 .header-content-link:hover {
@@ -81,7 +85,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 0.5rem;
-    width: 50%;
+    width: 30rem
 }
 
 .title-celular {
@@ -124,10 +128,64 @@ body {
 }
 
 .content-celular-2 {
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 30rem
 }
 
 .celular-img-celular {
-    width: 34em;
+    width: 80%;
     transform: rotate(34.3deg);
 }
+
+/* CSS do Rodapé  */
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 0.1rem solid #FCFCFC;
+    padding: 3rem 0 0.5rem;
+    margin: 0 auto;
+}
+
+.footer-container-logo {
+    width: 8rem;
+}
+
+.footer-container-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 2em;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    color: #FCFCFC;
+    margin-top: 1.5rem;
+}
+
+.footer-container-description {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.5em;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    color: #FCFCFC;
+}
+
+.footer-container-copyright {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1em;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    color: #FCFCFC;
+    margin-top: 1.5rem;
+}
+
+.copyright-link {
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: #FCFCFC;
+}
+
